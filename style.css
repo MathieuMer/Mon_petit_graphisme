@@ -1,4 +1,243 @@
+/* Définitions polices */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body
 {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Style global */
+
+#bloc_page
+{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* Style Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo
+{
+    align-self: flex-end;
+}
+
+nav
+{
+    align-self: center;
+    display: flex;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+#menu li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Style Bannière */
+
+section
+{
+    margin-top: 0px;
+}
+
+#banniere
+{
+    height: 450px;
+    position: relative;
+}
+
+#banniere_image
+{
+    position: absolute;
+	width: 100%;
+    height: 100%;
+}
+
+
+#contenu_banniere
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_banniere
+{
+    width: 200px;
+}
+
+
+#contenu_banniere h1
+{
+    color: white;
+	font-weight: bold;
+    white-space:nowrap;
+    text-align: center;
+}
+
+/* Style Contenu */
+
+#contenu
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#conteneur_logos
+{
+    margin-top: 20px;
+    margin-left: -30px;
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+
+#conteneur_logos img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avis
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42%;
+    margin-top: 30px;
+}
+
+#contenu p
+{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#avis
+{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+
+#graphisme p, #strategie p, #illustrations p
+{
+    padding-right: 10%;
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#signature
+{
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Style Footer */
+
+footer
+{
+    background-color: #5b359d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 195px;
+    padding-top: 15px;
+}
+
+footer p
+{
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#logos
+{
+    margin-top: -5px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#listes
+{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p
+{
+    color: white;
+    font-weight: bold;
+}
+
+footer h3
+{
+    color: rgb(177, 177, 177);
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+footer li
+{
+    color: white;
+    font-weight: bold;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer img
+{
+    filter: invert(0.8);    
+}
+
+#adresse li
+{
+    list-style: none;
+    font-size: 1em;
+}
+

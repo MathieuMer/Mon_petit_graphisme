@@ -5,24 +5,21 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <!-- On peut avoir d'autres méta-données ici -->
     </head>
 
     <body>
 
-        <div id="bloc_page"></div>
+        <div id="bloc_page">
 
             <header>
 
-                <div id="logo">
-                    <img src="images/logo_long.png" alt="logo">
-                </div>
-
+                <img id="logo" src="images/logo_long.png" alt="logo">
+               
                 <nav>
-                    <ul>
-                        <li>Accueil</li>
-                        <li>Contact</li>
+                    <ul id="menu">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
 
@@ -32,8 +29,15 @@
             <section>
 
                 <div id="banniere">
-                    <img src="images/logo_long.png" alt="logo">
-                    <h1>Agence de graphisme</h1>
+
+                    <div>   
+                        <img id="banniere_image" src="images/backgroung_image.jpg" alt="banniere">
+                    </div>
+
+                    <div id="contenu_banniere">   
+                        <img id="logo_banniere" src="images/logo_long.png" alt="logo">
+                        <h1>Agence de graphisme</h1>
+                    </div>
                 </div>
 
                 
@@ -63,11 +67,9 @@
 
                     </div>
 
-                    <div id="avis">
-                        <p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complètement la carte de mon restaurant."</p>
-                        <p>Anmandine, restauratice</p>
-                    </div>
-
+                    <p id="avis">"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complètement la carte de mon restaurant."</p>
+                    <p id="signature">Amandine, restauratice</p>
+                    
                 </div>
                         
             </section>
@@ -87,22 +89,22 @@
                     <div>
                         <h3>Accès rapides</h3>
                         <ul>
-                            <li>Accueil</li>
-                            <li>Contact</li>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h3>A propos</h3>
                         <ul>
-                            <li>Données personelles</li>
-                            <li>Mentions légales</li>
-                            <li>Cookies</li>
+                            <li><a href="#">Données personelles</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                            <li><a href="#">Cookies</a></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h3>A propos</h3>
+                        <h3>Coordonnées</h3>
                         <ul id="adresse">
                             <li>10 Quai de la Charente</li>
                             <li>75019 Paris</li>
@@ -110,22 +112,10 @@
                         </ul>
                     </div>
                     
-
                 </div>
 
             </footer>
 
-
-
-
-        
-
-
-
-
-
-
-
-    </div>
+        </div>
     </body>
 
